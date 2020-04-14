@@ -1,0 +1,389 @@
+body{
+  margin: 0;
+  color: #3f434a;
+}
+/* 一個目 */
+.chatchup{
+  background-image: url(flower.jpg);
+    background-size: cover;
+    background-position: bottom;
+    height: 660px;
+    text-align: center;
+    color:white;
+  
+}
+.flower{
+  padding-top: 100px;
+  
+}
+.flower p{
+  font-size: 20px;
+  font-weight: 400;
+}
+.download{
+  padding-top:150px;
+}
+.google{
+padding: 0 5px;
+}
+.apple{
+  padding:0 5px;
+}
+.fee{
+ font-size: 13px;
+ font-weight: 400;
+ padding-top: 40px;
+ margin: 0;
+}
+.area{
+  font-size: 13px;
+ font-weight: 400;
+ margin: 10px;
+}
+/* 二個目 */
+.main{
+  display: flex;
+  width: 100%;
+  color: white;
+}
+.select{
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_service01-01ee576583ddad054106d9f2dc78caf78be6c829383351a4fbc99ac5a566020a.jpg);
+  background-size: cover;
+  height: 540px;
+  background-position: bottom;
+  width : calc(100% / 3) ;
+  
+}
+.post{
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_service02-cd59d8cd17b05503a9fc3eeae42d618d0cc19b2277b581f5db275d5dde09e94d.jpg);
+  background-size: cover;
+  height: 540px;
+  background-position: bottom;
+  width : calc(100% / 3) ;
+}
+.decoration{
+  background-image: url(https://s3-ap-northeast-1.amazonaws.com/flower-production-assets/assets/web/home/bg_service03-4c44f872ed6f7ed3007faeb109b1e03ceabcdb3106ba54392a5457a159a0f2ab.jpg);
+  background-size: cover;
+  height: 540px;
+  background-position: bottom;
+  width : calc(100% / 3) ;
+}
+.triple h3{
+  font-size: 24px;
+  padding-left: 15px;
+  font-weight: 400;
+  margin: 30 0;
+}
+.triple p{
+  font-size: 15px;
+  padding: 0 15px;
+  font-weight: 400;
+  margin: 15 0;
+}
+/* 三個目 */
+.main2{
+  width: 100%;
+  display: flex;
+  text-align: center;
+
+}
+/* 左側 */
+.bolume{
+  
+  width: 50%;
+  background-color: #F5F5F5;
+  padding-top: 70px;
+  height: 450px;
+}
+.bolume h2{
+  margin: 0;
+  font-weight: 400;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.imgbox{
+  padding: 0 10px;
+  
+  
+}
+.solo{
+  width: 190px;
+  height: 250px;
+  border-radius: 10px;
+}
+.malti{
+  width: 190px;
+  height: 250px;
+  border-radius: 10px;
+}
+.textbox{
+  margin: 0 auto;
+  width: 400px;
+  text-align: left;
+}
+.plan{
+  font-size: 14px;
+}
+
+/* 右側   */
+.pace{
+  margin: 0 auto;
+ position: relative;
+}
+.days{
+  width: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform : translate(-50%,-50%);
+  transform : translate(-50%,-50%);
+}
+.txt{
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+/* 4個目 */
+.manyflower{
+  display: flex;
+  background-color: #EAD5DC;
+  height: 700px;
+  justify-content: space-between;
+}
+.item{
+  padding-left: 40px;
+  position: relative;
+  width: 40%;
+  
+}
+
+.item img{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+}
+.textcontainer{
+  width: 50%;
+  position: relative;
+  
+  
+}
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform : translate(-50%,-45%);
+  width: 450px;
+  height: 550px;
+}
+.first{
+  margin-top: 50px;
+}
+
+.txts h3{
+  text-align: center;
+  font-size: 22px;
+}
+.txts p{
+  width: 100%;
+  padding-left: 20px;
+}
+.textcontainer .box h1{
+  font-weight: 400;
+  text-align: center;
+  font-size: 27px;
+}
+
+.textcontainer .txts h3{
+  font-weight: 400;
+}
+/* 5個目 */
+.cute{
+  display: flex;
+  background-color: #E7E3DF;
+  padding-top: 30px;
+  justify-content: space-between;
+  
+}
+.cuteleft{
+  width: 50%;
+  text-align: center;
+ 
+}
+.cuteitem{
+  width: 400px;
+  margin: 0 auto;
+  
+}
+.cutebowl {
+  font-weight: 400;
+  font-size: 26px;
+}
+.cutefree{
+  font-weight: 400;
+  font-size: 14px;
+  margin: 0 auto;
+  height: 25px;
+  width: 200px;
+  padding-top: 5px;
+  background-color: white;
+}
+.explain{
+  text-align: left;
+}
+.bowlimage{
+  display: flex;
+  justify-content: space-between;
+}
+.pricebox{
+  display: flex;
+}
+.firstbuy{
+  border: 2px solid black;
+  width: 90px;
+  padding: 5px;
+  font-weight: bold;
+}
+.money{
+  padding: 20px 0 0 15px;
+}
+.money1{
+  margin: 0 0;
+  text-align: left;
+  font-weight: 400;
+  font-size: 18px;
+  
+}
+.money2{
+  margin: 0 0 ;
+  font-size: 13px;
+}
+.aplication{
+  margin: 0 0;
+  text-align: left;
+  font-size: 13px;
+}
+
+.cuteright{
+  width: 50%;
+  
+}
+
+/* 6個目 */
+.live{
+  text-align: center;
+  height: 370px;
+  padding-top: 30px;
+}
+.livecontent{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.info{
+  width: 33%;
+}
+.livetext{
+font-size: 26px;
+font-weight: 400;
+}
+.txtm{
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+}
+.txts{
+  font-size: 15px;
+  font-weight: 400;
+  
+}
+
+/* 7個目 */
+
+.last{
+  display: flex;
+  background-color: #EFDFC5;
+}
+.lastimg{
+  
+  
+  width: 50%;
+  margin: 0 auto;
+}
+.lastimg img{
+  width: 550px;
+  height: 100%;
+  
+  
+}
+.lastright{
+  width: 40%;
+}
+.lastbox{
+  text-align: center;
+  margin-right: 230px;
+  margin-top: 60px;
+  width: 300px;
+}
+.lastbox img{
+  width: 120px;
+  height: 100%;
+}
+.lasttext{
+  width: 300px;
+}
+
+/* フッター */
+
+footer{
+  background-color: #3F434A;
+  height: 200px;
+}
+.footer{
+  display: flex;
+}
+
+.footerleft{
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+
+.footerright{
+  width: 20%;
+  text-align: right;
+  padding-top: 30px;
+  padding-right: 10px;
+}
+.footerleft a{
+  height: 24px;
+  text-decoration: none;
+}
+.footercontent{
+  color: white;
+}
+.copyright{
+  text-align: center;
+  font-size: 13px;
+}
+.copy{
+  color: #8B8E92;
+}
+
+.fadein {
+  opacity : 0;
+  transform : translate(0, 10px);
+  transition : all 1s;
+}
+ 
+.fadein.active{
+  opacity : 1;
+  transform : translate(0, 0);
+}
